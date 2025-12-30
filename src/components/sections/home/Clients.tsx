@@ -1,4 +1,3 @@
-import React from 'react'
 import LogoCarousel from "@/components/ui/LogoCarousal";
 
 const partners = [
@@ -20,7 +19,8 @@ const partners = [
 
 const Clients = () => {
   return (
-    <div className='h-[50vh] py-16'>
+    <div className='h-[50vh] py-24'>
+      <h5 className='uppercase text- w-full text-center'>Trusted by leading companies</h5>
         <LogoCarousel logos={partners} />
     </div>
   )
