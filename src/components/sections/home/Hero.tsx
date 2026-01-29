@@ -7,9 +7,9 @@ const Hero = () => {
         <div className="relative w-full pt-40 px-8">
           <div className="relative max-w-6xl pt-24 mx-auto text-center flex flex-col gap-8 items-center">
             <h1 className="">
-              Building Digital Experiences That Drive Growth
+              Craft Your Symphony of Digital Impact
             </h1>
-            <h4 className="text-xl text-foreground/75 tracking-wide max-w-4xl">
+            <h4 className="text-xl text-muted-foreground tracking-wide max-w-4xl">
               We help businesses strengthen their digital presence through
               strategy, design, and performance-driven marketing.
             </h4>

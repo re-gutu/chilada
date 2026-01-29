@@ -20,7 +20,7 @@ const partners = [
 const Clients = () => {
   return (
     <div className='h-[50vh] py-24'>
-      <h5 className='uppercase text- w-full text-center'>Trusted by leading companies</h5>
+      <h5 className='w-full text-center'>Trusted by leading companies</h5>
         <LogoCarousel logos={partners} />
     </div>
   )
