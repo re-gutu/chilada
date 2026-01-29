@@ -92,8 +92,8 @@ h5 {
 }
 
 P {
-  letter-spacing: 0.075em;
-  line-height: 160%;
+  letter-spacing: 0.06em;
+  line-height: 150%;
 }
 
 @theme inline {
@@ -148,3 +148,4 @@ P {
     padding: 0px;
   }
 }
+
