@@ -85,6 +85,13 @@ h2 {
   letter-spacing: -0.03em;
 }
 
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+
 h5 {
   font-size: 0.85rem;
   text-transform: uppercase;
