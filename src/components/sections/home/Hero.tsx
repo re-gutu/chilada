@@ -14,11 +14,11 @@ const Hero = () => {
               strategy, design, and performance-driven marketing.
             </h4>
             <div className="w-full flex gap-8 justify-center">
-                <button className="text-background bg-foreground px-8 py-4 rounded-full text-lg">
-                Start a Project
+                <button className="text-background bg-primary px-8 py-4 uppercase">
+                Contact Us
                 </button>
-                <button className="border-2 px-8 py-4 rounded-full text-lg">
-                View Work
+                <button className="border-2 px-8 py-4 uppercase">
+                Explore Our Work
                 </button>
             </div>
           </div>
