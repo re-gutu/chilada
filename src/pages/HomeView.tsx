@@ -10,10 +10,10 @@ const HomeView = () => {
     <main className='relative w-full'>
         <Hero />
         <Showreel />
-        {/* <Clients /> */}
         <About />
         <Services />
         <Projects />
+        <Clients />
     </main>
   )
 }
