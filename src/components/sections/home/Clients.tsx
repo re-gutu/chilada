@@ -49,14 +49,14 @@ const reviews = [
 
 const Clients = () => {
   return (
-    <div className="min-h-screen bg-[#1A0A07] py-24 flex flex-col gap-32">
+    <div className="min-h-screen bg-hero py-24 flex flex-col gap-32">
       
       {/* SECTION 2: TESTIMONIALS */}
       <div className="flex flex-col gap-12">
         <div className="px-8 md:px-24">
-          <h2 className="text-5xl md:text-7xl font-black text-[#EEE5CA] uppercase leading-[0.9]">
+          <h2 className="text-5xl md:text-7xl font-black text-hero uppercase leading-[0.9]">
             Voices from <br />{" "}
-            <span className="text-[#1D6171]">The Plateau</span>
+            <span className="text-secondary">The Plateau</span>
           </h2>
         </div>
         <div className="h-[400px]">
@@ -76,8 +76,8 @@ const Clients = () => {
         {/* SECTION 1: PARTNERS */}
         <div className="flex flex-col gap-10">
           <div className="px-8 md:px-24 flex items-center gap-4">
-            <div className="h-[1px] w-12 bg-[#712C1D]" />
-            <h5 className="text-[#EEE5CA]/50 font-mono text-xs uppercase tracking-[0.3em]">
+            <div className="h-[1px] w-12 bg-primary" />
+            <h5 className="text-hero font-mono text-xs uppercase tracking-[0.3em] opacity-50">
               Trusted Partners
             </h5>
           </div>

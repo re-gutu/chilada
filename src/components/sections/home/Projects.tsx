@@ -75,18 +75,18 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="py-32 px-8 md:px-24 flex flex-col bg-[#1A0A07]">
+    <div className="py-32 px-8 md:px-24 flex flex-col bg-hero">
       <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-16">
         <div className="max-w-2xl">
-          <h5 className="text-[#1D6171] font-mono text-xs font-black uppercase tracking-[0.4em] mb-4">
+          <h5 className="text-secondary font-mono text-xs font-black uppercase tracking-[0.4em] mb-4">
             Featured Projects
           </h5>
-          <h2 className="text-5xl md:text-7xl font-black text-[#EEE5CA] uppercase tracking-tighter leading-[0.9]">
+          <h2 className="text-5xl md:text-7xl font-black text-hero uppercase tracking-tighter leading-[0.9]">
             Results you <br />
-            <span className="text-[#712C1D]">can feel</span>
+            <span className="text-primary">can feel</span>
           </h2>
         </div>
-        <p className="text-[#EEE5CA]/50 font-light leading-relaxed max-w-sm text-right">
+        <p className="text-hero font-light leading-relaxed max-w-sm text-right opacity-50">
           Work that shifts perception and drives measurable results. Built for
           impact, refined for the modern digital landscape.
         </p>
@@ -96,15 +96,7 @@ const Projects = () => {
       <div
         ref={scrollRef}
         className="flex gap-16 overflow-x-auto overflow-y-hidden scroll-smooth no-scrollbar"
-        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
-        {/* CSS to hide scrollbar for Webkit browsers */}
-        <style jsx>{`
-          .no-scrollbar::-webkit-scrollbar {
-            display: none;
-          }
-        `}</style>
-
         {projects.map((project, i) => (
           <ProjectCard key={i} {...project} />
         ))}
@@ -112,12 +104,12 @@ const Projects = () => {
 
       {/* Navigation Controls */}
       <div className="pt-16 flex justify-between items-center">
-        <div className="h-[1px] flex-grow bg-[#712C1D]/20 mr-12" />
+        <div className="h-[1px] flex-grow bg-primary/20 mr-12" />
         <div className="flex gap-4">
           <button
             type="button"
             onClick={() => scrollByCard("left")}
-            className="group p-4 border border-[#712C1D] text-[#712C1D] hover:bg-[#712C1D] hover:text-[#EEE5CA] transition-all"
+            className="group p-4 border border-primary text-primary hover:bg-primary hover:text-hero transition-all"
             aria-label="Previous project"
           >
             <ChevronLeft className="size-5 group-active:scale-90 transition-transform" />
@@ -125,7 +117,7 @@ const Projects = () => {
           <button
             type="button"
             onClick={() => scrollByCard("right")}
-            className="group p-4 border border-[#1D6171] text-[#1D6171] hover:bg-[#1D6171] hover:text-[#EEE5CA] transition-all"
+            className="group p-4 border border-secondary text-secondary hover:bg-secondary hover:text-hero transition-all"
             aria-label="Next project"
           >
             <ChevronRight className="size-5 group-active:scale-90 transition-transform" />

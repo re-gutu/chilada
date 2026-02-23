@@ -26,18 +26,18 @@ const Services = () => {
   ];
 
   return (
-    <div className='bg-[#1A0A07] p-8 md:p-24 flex flex-col items-start'>
+    <div className='bg-hero p-8 md:p-24 flex flex-col items-start'>
         {/* Section Header */}
-        <div className="w-full flex flex-col md:flex-row justify-between items-end mb-20 border-b border-[#712C1D]/30 pb-12">
+        <div className="w-full flex flex-col md:flex-row justify-between items-end mb-20 border-b border-primary/30 pb-12">
             <div className="max-w-2xl">
-                <h5 className="text-[#1D6171] font-mono text-xs font-black uppercase tracking-[0.4em] mb-4">
+                <h5 className="text-secondary font-mono text-xs font-black uppercase tracking-[0.4em] mb-4">
                   Capabilities
                 </h5>
-                <h2 className='text-5xl md:text-7xl font-black text-[#EEE5CA] uppercase tracking-tighter leading-[0.9]'>
+                <h2 className='text-5xl md:text-7xl font-black text-hero uppercase tracking-tighter leading-[0.9]'>
                   Sustainable <br /> Digital Solutions
                 </h2>
             </div>
-            <p className="text-[#EEE5CA]/40 text-sm max-w-xs text-right hidden lg:block">
+            <p className="text-hero text-sm max-w-xs text-right hidden lg:block opacity-40">
               Merging technical precision with creative endurance to solve complex digital challenges.
             </p>
         </div>
@@ -56,7 +56,7 @@ const Services = () => {
 
         {/* Bottom Decorative Branding */}
         <div className="w-full mt-20 flex justify-center opacity-10">
-            <span className="text-[#EEE5CA] font-black text-[12vw] uppercase leading-none select-none">
+            <span className="text-hero font-black text-[12vw] uppercase leading-none select-none">
               Capabilities
             </span>
         </div>
